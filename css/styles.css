@@ -86,3 +86,8 @@ body {
   color: var(--primary-white-color);
   background-color: var(--hover-text-color);
 }
+
+/* Примеры работ */
+.labors .title {
+  color: var(--header-text-color);
+}
