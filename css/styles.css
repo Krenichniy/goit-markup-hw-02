@@ -26,10 +26,17 @@ body {
 .link {
   color: var(--header-text-color);
 }
+.logo-part {
+  color: var(--hover-text-color);
+}
 .references .link:hover,
 .references .link:focus {
   color: var(--hover-text-color);
 }
+.references .link.current {
+  color: var(--hover-text-color);
+}
+
 .contacts .link {
   color: currentColor;
 }
@@ -37,9 +44,7 @@ body {
 .contacts .link:focus {
   color: var(--hover-text-color);
 }
-.logo-part {
-  color: var(--hover-text-color);
-}
+
 .list {
   list-style: none;
 }
@@ -61,4 +66,10 @@ body {
 /* Сотрудники */
 .workers .title {
   color: var(--header-text-color);
+}
+
+/* Кнопка */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--hover-text-color);
 }
