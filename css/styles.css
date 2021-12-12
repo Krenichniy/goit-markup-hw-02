@@ -9,6 +9,8 @@
 /*  колір секції робіт та чеснот #E5E5E5; */
 /* колір бекграунду працівників #F5F4FA */
 
+/* скрыть элемент:opaccity=0 hidden=overflow
+width=1px height=1px  */
 :root {
   --header-text-color: #212121;
   --hover-text-color: #2196f3;
