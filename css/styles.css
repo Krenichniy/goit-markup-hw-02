@@ -142,6 +142,7 @@ body {
   чтобы было видно информацию
   белого цвета */
   background-color: var(--header-text-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
